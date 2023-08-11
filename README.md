@@ -1,14 +1,15 @@
 # My Country States For WooCommerce
-Contributors: 2bytecode, tassawerhussain
-Donate link: https://www.buymeacoffee.com/2bytecode
-Tags: WooCommerce, Billing States, Country, Address, Checkout, Localization, E-commerce, Shipping, Regions, Tax, Geolocation
-Requires at least: 3.0.1
-Tested up to: 6.3
-WC requires at least: 3.0
-WC tested up to: 8.0.1
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+- **Contributors:** 2bytecode, tassawerhussain
+- **Donate link:** https://www.buymeacoffee.com/2bytecode
+- **Tags:** WooCommerce, Billing States, Country, Address, Checkout, Localization, E-commerce, Shipping, Regions, Tax, Geolocation
+- **Requires at least:** 3.0.1
+- **Tested up to:** 6.3
+- **WC requires at least:** 3.0
+- **WC tested up to:** 8.0.1
+- **Stable tag:** 1.0.0
+- **License:** GPLv2 or later
+- **License URI:** http://www.gnu.org/licenses/gpl-2.0.html
 
 ## Short Description
 
@@ -16,7 +17,7 @@ Enhance accuracy, reduce errors, optimize shipping and tax calculations on WooCo
 
 ## Description
 
-'My Country States For WooCommerce,' the ultimate solution to a common WooCommerce limitation. As any international e-commerce store owner knows, providing a smooth and efficient checkout process is crucial. However, WooCommerce doesn't include states or provinces for all countries by default, leading to frustrating manual entry for customers.
+**My Country States For WooCommerce**, the ultimate solution to a common WooCommerce limitation. As any international e-commerce store owner knows, providing a smooth and efficient checkout process is crucial. However, WooCommerce doesn't include states or provinces for all countries by default, leading to frustrating manual entry for customers.
 
 We've taken this challenge head-on and are proud to present a feature-packed solution. Our plugin adds support for over 160 countries, ensuring that when a customer selects their country, the corresponding states or provinces are automatically populated. No more tedious typing, no more errors in state names—just a seamless checkout experience that boosts user satisfaction and trust in your online store.
 
@@ -30,7 +31,7 @@ Whether you're dealing with orders from Afghanistan to Zimbabwe, our plugin has 
 *   Seamless integration: Easy setup with no coding required. No admin settings as well. Just install, activate, and enjoy.
 *   Works out of the box: A hassle-free enhancement to your WooCommerce store.
 
-Upgrade your WooCommerce store today with 'My Country States For WooCommerce.' Elevate the user experience, increase operational efficiency, and drive customer satisfaction to new heights. Your global customers deserve nothing less.
+Upgrade your WooCommerce store today with **My Country States For WooCommerce**. Elevate the user experience, increase operational efficiency, and drive customer satisfaction to new heights. Your global customers deserve nothing less.
 
 ## Installation
 
