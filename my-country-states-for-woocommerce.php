@@ -72,7 +72,7 @@ define( 'MY_COUNTRY_STATES_VERSION', '1.0.0' );
  *
  * @since 1.0.0
  */
-function my_country_states_missing_wc_notice() {
+function mcsfwc_missing_wc_notice() {
 	/* translators: 1. URL link. */
 	echo '<div class="notice notice-error is-dismissible"><p><strong>' . sprintf( esc_html__( 'My Country State requires WooCommerce to be installed and active. You can download %s here.', 'my-country-states-for-woocommerce' ), '<a href="https://woocommerce.com/" target="_blank">WooCommerce</a>' ) . '</strong></p></div>';
 }
@@ -82,16 +82,16 @@ function my_country_states_missing_wc_notice() {
  *
  * @since 1.0.0
  */
-function woocommerce_my_country_states_init() {
+function mcsfwc_woocommerce_init() {
 
 	if ( ! class_exists( 'WooCommerce' ) ) {
-		add_action( 'admin_notices', 'my_country_states_missing_wc_notice' );
+		add_action( 'admin_notices', 'mcsfwc_missing_wc_notice' );
 
 		return;
 	}
 
 }
-add_action( 'plugins_loaded', 'woocommerce_my_country_states_init' );
+add_action( 'plugins_loaded', 'mcsfwc_woocommerce_init' );
 
 /**
  * The core plugin class that is used to define internationalization,
@@ -108,10 +108,10 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-my-country-states.php';
  *
  * @since    1.0.0
  */
-function run_my_country_states() {
+function run_mcsfwc_my_country_states() {
 
 	$plugin = new My_Country_States();
 	$plugin->run();
 
 }
-run_my_country_states();
+run_mcsfwc_my_country_states();
